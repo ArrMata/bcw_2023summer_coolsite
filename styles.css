@@ -99,7 +99,16 @@ main img {
 }
 
 .footer-social-nav-header {
+    position: relative;
     font-size: 3em;
+    transition: all ease-in-out 0.6s;
+}
+
+.footer-social-nav-header:hover {
+    transform: translateX(75px);
+    font-size: 3em;
+    color: #235cec;
+    cursor: pointer;
 }
 
 .footer-social-nav-text {
