@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+* {
+    font-family: 'Ubuntu', 'sans-serif';
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #061130;
+    padding: 0em 3em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+
+header button {
+    color: white;
+    background-color: #1C4BC4;
+    border-radius: 0.3em;
+    padding: 0.5em 1em;
+    border: none;
+    font-size: 1em;
+}
+
+main{
+    background-color: #061130;
+}
+
+main img {
+    margin-left: 5em;
+}
+
+.navbar-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.2em;
+}
+
+.main-paragraph{
+    max-width: 20vw;
+}
+
+.call-to-action {
+    font-weight: 500;
+    margin: 0.75em 0;
+}
+
+.main-block{
+    justify-content: center;
+    padding-bottom: 7em;
+}
+
+.subtitle-world-text{
+    color: #FAFD61;
+}
+
+.footer-navbar {
+    width: 100%;
+    justify-content: space-around;
+    padding: 3em 0em;
+}
+
+.footer-description {
+    width: 100%;
+    padding: 5vh 0;
+    text-align: center;
+    background: #eef3f3;
+}
+
+.footer-description-title {
+    font-size: xx-large;
+}
+
+/*SECTION  Utility Classes*/
+
+.text-white{
+    color: white;
+}
+
+.text-dark {
+    color: #061130
+}
+
+.thick-text {
+    font-weight: 500;
+}
+
+.thin-text{
+    font-weight: 300;
+}
+
+.spaced-line-height{
+    line-height: 1.65em;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.small-gap {
+    margin: 0 2em;
+}
+
+.small-vertical-gap {
+    margin: 1.25em 0;
+}
+
+/*SECTION  Mobile Query Section*/
+
+@media (max-width: 580px) {
+
+    header {
+        padding: 0 1.5em;
+        padding-top: 2em;
+        padding-bottom: 5em;
+    }
+    
+    main img {
+        max-width: 100vw;
+        margin-top: 5em;
+        margin-left: 0;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .main-block{
+        display: block;
+    }
+
+    .main-paragraph {
+        padding: 0 1em;
+        max-width: 100vw;
+    }
+
+    .footer-navbar {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 581px) and (max-width: 700px) {
+    header {
+        padding: 0 1.5em;
+        padding-top: 2em;
+        padding-bottom: 5em;
+    }
+    
+    main img {
+        max-width: 100vw;
+        margin-top: 5em;
+        margin-left: 0;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .main-block{
+        display: block;
+    }
+
+    .main-paragraph {
+        padding: 0 1em;
+        max-width: 100vw;
+    }
+}
