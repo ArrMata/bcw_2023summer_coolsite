@@ -77,6 +77,37 @@ main img {
     font-size: xx-large;
 }
 
+/* SECTION Additonal styles for extra work */
+
+.footer-social-nav {
+    justify-content: space-between;
+    background-color: #061130;
+}
+
+.footer-social-nav-header {
+    font-size: 3em;
+}
+
+.footer-social-nav-text {
+    padding: 2em 3.5em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-social-nav-links {
+    font-size: x-large;
+}
+
+.footer-social-nav-links a {
+    margin-right: 1.5em;
+}
+
+.footer-social-nav img {
+    object-fit: cover;
+    width: 50vw;
+    max-height: 40vh;
+}
+
 /*SECTION  Utility Classes*/
 
 .text-white{
@@ -85,6 +116,10 @@ main img {
 
 .text-dark {
     color: #061130
+}
+
+.text-small {
+    font-size: small;
 }
 
 .thick-text {
